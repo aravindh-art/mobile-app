@@ -14,13 +14,13 @@ class AppBarApp extends StatelessWidget {
 }
 
 class AppBarExample extends StatelessWidget {
-  const AppBarExample({super.key});
+  const AppBarExample({super.key});     
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('AppBar Demo'),
+        title: const Text('AppBar  '),
         actions: <Widget>[
           IconButton(
             icon: const Icon(Icons.add_alert),
